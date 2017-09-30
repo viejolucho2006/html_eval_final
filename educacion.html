@@ -25,79 +25,81 @@
 		<a href="experiencia.html">Experiencia</a> |
 </navbar>
 
-
- <h2>Educación</h2>	
-<form name="form-educacion" autcomplete="on">
-<fieldset>
-
-    <table border="1">
+<section>
+	<h2>Educación</h2>	
+ 
+    	<table border="1">
             <thead>
-            <tr>
-            	<th>Año</td>
-                <th>Institución</td>
-                <th>Lugar</td>
-                <th>¿Culminó?</td>
-            </tr>
+            	<tr>
+            		<th>Año</td>
+                	<th>Institución</td>
+                	<th>Lugar</td>
+                	<th>¿Culminó?</td>
+            	</tr>
             </thead>
             
             <tbody>
-            <tr>
-            	<td>1998</td>
-                <td>Colegio Montúfar</td>
-				<td>Quito</td>
-                <td>Si</td>
-            </tr>
-            <tr>
-            	<td>2002 </td>
-                <td> </td>
-                <td> </td>
-                <td> </td>
-            </tr>
+            	<tr>
+            		<td>1998</td>
+                	<td>Colegio Montúfar, Bachillerato</td>
+					<td>Quito</td>
+                	<td>Si</td>
+            	</tr>
+            	
+                <tr>
+            		<td>2002 </td>
+                	<td>Instituto de Diseño, Photo Shop </td>
+                	<td>Quito </td>
+                	<td>Si </td>
+            	</tr>
+            
+            	<tr>
+            		<td>2008 </td>
+                	<td>Espe Certificacion Linux Centos</td>
+                	<td>Quito </td>
+                	<td>Si </td>
+            	</tr>
+            </tbody>
             
             <tfoot>
-            <tr>
-            	<th colspan="4">Datos cargados</td>
-                
-            </tr>
+           
             </tfoot>
             
-      </table>
-            
-     <h3><strong>Agregar estudios</strong></h3>  
-     
-        
-       	  <p>
-            <label for="anio">Años:</label>
-            <select name="anio">
-            	<option value="1">2010</option>
-                <option value="2">2011</option>
-                <option value="3">2012</option>
-                <option value="4">2013</option>
-            </select>
-         </p>
+      	</table>
+      	<br>
+     	<form name="form-educacion" autcomplete="on">
+		<fieldset>       
+     		<h3><strong>Agregar estudios</strong></h3>  
+       	  	<p>
+            	<label for="anio">Años:</label>
+            	<select name="anio">
+            		<option value="1">2010</option>
+                	<option value="2">2011</option>
+                	<option value="3">2012</option>
+                	<option value="4">2013</option>
+            	</select>
+         	</p>
 
- 		<p>
-        <label for="institucion">Institución:</label>
- 		<input type="text" id="institucion" placeholder="Ej: Gonzaga">
-		</p>
-        <p>
-        <label for="lugar">Lugar:</label>
- 		<input type="text" id="lugar" placeholder="Ej: Quito">
-		</p>
+ 			<p>
+        		<label for="institucion">Institución:</label>
+ 				<input type="text" id="institucion" placeholder="Ej: Gonzaga" required>
+			</p>
         
-		 <p>
-         <label for="culmino">'¿Culminó:? </label>
-            <b>Si</b><input type="radio" name="culmino" id="culmino">
-            <b>No</b><input type="radio" name="culmino" id="culmino">
-          </p>   
+        	<p>
+        		<label for="lugar">Lugar:</label>
+ 				<textarea name="lugar" rows="8" cols="40"> </textarea>
+			</p>
+        
+			<p>
+         		<label for="culmino">'¿Culminó:? </label>
+            		<b>Si</b><input type="radio" name="culmino" id="culmino">
+            		<b>No</b><input type="radio" name="culmino" id="culmino">
+          	</p>   
             
-            <input type="submit" value="Enviar">
-            
-           
-            
-      	</fieldset>     
-    </form>             
-
+            	<input type="submit" value="Enviar">
+        </fieldset>     
+    	</form>             
+</section>
 <footer>
     <p>Derechos Reservados<p>
     <p>Correo: luis_lopez@hotmail.com | Télefono: 593999936084 | sky: viejolucho2006</p>
